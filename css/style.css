@@ -1,0 +1,255 @@
+/* Header */
+
+header {
+    position: absolute;
+}
+/* Navbar styling */
+.navbar {
+    background-color: rgba(96, 153, 102, 0.7);
+}
+
+/* Navbar toggler */ 
+.navbar-toggler {
+    display: block;
+}
+
+/* Navbar toggler icon */
+.navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Navbar links */
+.nav-item a {
+    color: white;
+    padding: 10px 50px;
+}
+
+.nav-item a:hover {
+    color: black;
+}
+
+/* Menu dropdown */
+div ul li:hover .dropdownnav-content {
+    display: block;
+}
+
+.dropdownnav {
+    padding: 9px 9px;
+}
+
+.dropbtn a:hover {
+    color: black;
+}
+
+.dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    margin: 0;
+}
+
+.dropdownnav-content a:hover { 
+    color: black;
+}
+
+.dropdownnav-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdownnav-content a {
+    float: none;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdownnav-content a:hover {
+    background-color: #ddd;
+}
+
+/* Body */
+
+/* Hero section */
+.hero-section {
+    margin-top: 60px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+/* background styling */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#section4 {
+    background-color: rgba(96, 153, 102, 0.7);
+}
+
+#section4 a {
+    border-radius: 50px;
+}
+
+#cardsec5{
+    background-color: #4d7c8a;
+    width: fit-content;
+}
+
+#testimonial-item {
+    background-color: #4d7c8a;
+}
+
+.item-logo {
+    padding-bottom: 50px;
+}
+
+.image img {
+    border-radius: 50px;
+}
+
+.layar-full {
+    width: 100%;
+}
+
+#tulisan1 {
+    margin-top: 80px;
+}
+
+/* Card styling */
+.card-columns {
+    column-gap: 50px;
+}
+  
+.card {
+      width: 384px;
+      height: 355px;
+      border-radius: 15px;
+      background: rgba(217, 217, 217, 0.3);
+      margin-top: 35px;
+      margin-bottom: 50px;
+}
+  
+#title a{
+    color: rgba(96, 153, 102, 0.7);
+}
+
+/* Footer */
+#section6 {
+    background-color: rgba(96, 153, 102, 0.7);
+
+}
+
+#section6 img {
+    width: 50%;
+    padding-top: 1rem;
+}
+
+.social1, .social2, .social3 {
+    font-size: 20px ;
+    padding-top: 10px;
+}
+
+footer h6 {
+    color: #ddd;
+    text-align: center;
+}
+
+/* About Us */
+
+.image-aboutus {
+    width: 437px;
+    height: 151px;
+  }
+  
+.section {
+    background-color: rgba(96, 153, 102, 0.7);
+}
+  
+#scn-aboutus {
+    width: 150px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+  
+.title-aboutus {
+    color: rgba(96, 153, 102, 0.7);
+}
+  
+.btn {
+    background-color: rgba(96, 153, 102, 0.7);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btnabout{
+    border-radius: 40px;
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+  }
+  
+.aboutus{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+/* All Artikel */
+.tittle1 {
+    margin-top: 80px;
+}
+
+#imgartikel {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: block;
+}
+  
+.judul{
+    background-color: rgba(217, 217, 217, 0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Contact us */
+#contact-us {
+    background: #D9D9D9;
+    width: 450px;
+    height: auto;
+    border-radius: 15px;
+}
+
+#contact-us img {
+    max-width: 200px;
+    margin-left: 25%;
+}
+
+textarea {
+    border-radius: 5px;
+    border-style: none;
+}
+
+#btn-contactus {
+    border-radius: 5px;
+    border-style: none;
+}
